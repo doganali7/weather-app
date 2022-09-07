@@ -1,7 +1,10 @@
-import React from 'react'
+import React from "react";
+import ForecastSummary from "../ForecastSummary/ForecastSummary";
 
 export default function ForecastSummaries() {
   return (
-    <div>ForecastSummaries</div>
-  )
+    <div>
+      <ForecastSummary />
+    </div>
+  );
 }
