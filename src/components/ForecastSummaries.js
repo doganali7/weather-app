@@ -1,4 +1,6 @@
+/* eslint-disable react/prop-types */
 import React from "react";
+import "../styles/ForecastSummaries.css";
 import ForecastSummary from "./ForecastSummary";
 
 export default function ForecastSummaries({ forecasts }) {
